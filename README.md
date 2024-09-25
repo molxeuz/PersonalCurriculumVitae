@@ -2,18 +2,18 @@
 
 Bienvenido a mi currículum vitae digital. Este proyecto es una representación interactiva de mi trayectoria académica y profesional como estudiante de Ingeniería en Sistemas y Computación. 
 
-![GitHub repo size](https://img.shields.io/github/repo-size/molxeuz/nombre-repositorio)
-![GitHub contributors](https://img.shields.io/github/contributors/molxeuz/nombre-repositorio)
-![GitHub stars](https://img.shields.io/github/stars/molxeuz/nombre-repositorio)
-![GitHub forks](https://img.shields.io/github/forks/molxeuz/nombre-repositorio)
+![GitHub repo size](https://img.shields.io/github/repo-size/molxeuz/https://github.com/molxeuz/PersonalCurriculumVitae)
+![GitHub contributors](https://img.shields.io/github/contributors/molxeuz/https://github.com/molxeuz/PersonalCurriculumVitae)
+![GitHub stars](https://img.shields.io/github/stars/molxeuz/https://github.com/molxeuz/PersonalCurriculumVitae)
+![GitHub forks](https://img.shields.io/github/forks/molxeuz/https://github.com/molxeuz/PersonalCurriculumVitae)
 
 ## 📊 Estadísticas
 
 | **Estadística**               | **Valor**            |
 |-------------------------------|----------------------|
-| **Experiencia Laboral**       | 2 años               |
-| **Proyectos Realizados**      | 5 proyectos           |
-| **Habilidades**               | 10 habilidades        |
+| **Experiencia Laboral**       | 1 año                |
+| **Proyectos Realizados**      | +27 proyectos        |
+| **Habilidades**               | 10 habilidades       |
 | **Idiomas**                   | 2 (Español, Inglés)  |
 
 ### 📈 Gráfica de Habilidades
