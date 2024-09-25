@@ -11,9 +11,9 @@ Bienvenido a mi currículum vitae digital. Este proyecto es una representación 
 
 | **Estadística**               | **Valor**            |
 |-------------------------------|----------------------|
-| **Experiencia Laboral**       | 2 años               |
-| **Proyectos Realizados**      | 5 proyectos           |
-| **Habilidades**               | 10 habilidades        |
+| **Experiencia Laboral**       | 1 año                |
+| **Proyectos Realizados**      | +25 proyectos        |
+| **Habilidades**               | 10 habilidades       |
 | **Idiomas**                   | 2 (Español, Inglés)  |
 
 ### 📈 Gráfica de Habilidades
