@@ -1,69 +1,46 @@
-# Mateo Molina González - Digital CV
+# Molxeuz - Digital CV
 
 Bienvenido a mi currículum vitae digital. Este proyecto es una representación interactiva de mi trayectoria académica y profesional como estudiante de Ingeniería en Sistemas y Computación. 
 
-![GitHub repo size](https://img.shields.io/github/repo-size/molxeuz/https://github.com/molxeuz/PersonalCurriculumVitae)
-![GitHub contributors](https://img.shields.io/github/contributors/molxeuz/https://github.com/molxeuz/PersonalCurriculumVitae)
-![GitHub stars](https://img.shields.io/github/stars/molxeuz/https://github.com/molxeuz/PersonalCurriculumVitae)
-![GitHub forks](https://img.shields.io/github/forks/molxeuz/https://github.com/molxeuz/PersonalCurriculumVitae)
+![GitHub repo size](https://img.shields.io/github/repo-size/molxeuz/PersonalCurriculumVitae)
+![GitHub contributors](https://img.shields.io/github/contributors/molxeuz/PersonalCurriculumVitae)
+![GitHub stars](https://img.shields.io/github/stars/molxeuz/PersonalCurriculumVitae)
+![GitHub forks](https://img.shields.io/github/forks/molxeuz/PersonalCurriculumVitae)
 
 ## 📊 Estadísticas
 
 | **Estadística**               | **Valor**            |
 |-------------------------------|----------------------|
-| **Experiencia Laboral**       | 1 año                |
-| **Proyectos Realizados**      | +27 proyectos        |
-| **Habilidades**               | 10 habilidades       |
+| **Experiencia Laboral**       | 2 años               |
+| **Proyectos Realizados**      | 5 proyectos           |
+| **Habilidades**               | 10 habilidades        |
 | **Idiomas**                   | 2 (Español, Inglés)  |
 
 ### 📈 Gráfica de Habilidades
 
+Puedes ver la gráfica de habilidades [aquí](https://github.com/molxeuz/PersonalCurriculumVitae/blob/main/habilidades.html).
 
-### Explicaciones de cada sección:
+## 🚀 Características del Proyecto
 
-1. **Estadísticas**: Muestra información relevante sobre tu experiencia, proyectos y habilidades.
-2. **Gráfica de Habilidades**: Este es un espacio reservado donde puedes insertar un gráfico interactivo utilizando bibliotecas como Chart.js o Google Charts. 
-3. **Características, Tecnologías, Cómo Usar, y Contribuciones**: Secciones estándar que explican el propósito y uso del proyecto.
+- **Diseño Responsivo**: Adaptable a diferentes tamaños de pantalla, garantizando una experiencia óptima en dispositivos móviles y de escritorio.
+- **Interactividad**: Elementos que permiten al usuario explorar mis habilidades y experiencias de manera dinámica.
+- **Multimedia**: Inclusión de enlaces, videos y gráficos que enriquecen la presentación de mi perfil.
+- **Sección de Proyectos**: Resalta trabajos y proyectos relevantes, mostrando mi contribución en el campo de la tecnología.
 
-### Visualización de Gráficas
+## ⚙️ Tecnologías Utilizadas
 
-Para incluir gráficos interactivos, puedes usar una biblioteca como **Chart.js**. A continuación, te muestro un ejemplo simple de cómo agregar un gráfico de barras:
+- HTML5 y CSS3 para la estructura y el estilo.
+- JavaScript para mejorar la interactividad y la experiencia del usuario.
+- [Chart.js](https://www.chartjs.org/) para visualizaciones gráficas.
 
-```html
-<canvas id="myChart" width="400" height="200"></canvas>
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script>
-var ctx = document.getElementById('myChart').getContext('2d');
-var myChart = new Chart(ctx, {
-    type: 'bar',
-    data: {
-        labels: ['HTML', 'CSS', 'JavaScript', 'Python', 'C#'],
-        datasets: [{
-            label: 'Habilidades',
-            data: [90, 85, 80, 75, 70],
-            backgroundColor: [
-                'rgba(255, 99, 132, 0.2)',
-                'rgba(54, 162, 235, 0.2)',
-                'rgba(255, 206, 86, 0.2)',
-                'rgba(75, 192, 192, 0.2)',
-                'rgba(153, 102, 255, 0.2)'
-            ],
-            borderColor: [
-                'rgba(255, 99, 132, 1)',
-                'rgba(54, 162, 235, 1)',
-                'rgba(255, 206, 86, 1)',
-                'rgba(75, 192, 192, 1)',
-                'rgba(153, 102, 255, 1)'
-            ],
-            borderWidth: 1
-        }]
-    },
-    options: {
-        scales: {
-            y: {
-                beginAtZero: true
-            }
-        }
-    }
-});
-</script>
+## 📜 Cómo Usar Este Proyecto
+
+1. Clona el repositorio en tu máquina local:
+   ```bash
+   git clone https://github.com/molxeuz/PersonalCurriculumVitae.git
+2. Abre el archivo index.html en tu navegador para visualizar el currículum vitae digital.
+3. Ya esta en la web!! miralo en [Mateo Molina González CV](https://molxeuz.github.io/PersonalCurriculumVitae/)
+
+## 🤝 Contribuciones
+
+- **Las contribuciones son bienvenidas.** Si deseas sugerir mejoras o colaborar en este proyecto, no dudes en abrir un issue o enviar un pull request.
