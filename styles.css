@@ -4,6 +4,7 @@ body {
     color: #333;
     margin: 0;
     padding: 20px;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .container {
@@ -12,6 +13,8 @@ body {
     background-color: #fff;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border-radius: 10px;
 }
 
 header {
@@ -68,13 +71,67 @@ ul {
 }
 
 .skills ul, .interests ul {
-    columns: 1; /* Change to 1 column for better readability */
+    columns: 1;
 }
 
 .skills li, .interests li {
-    margin-bottom: 10px; /* Add spacing between items */
+    margin-bottom: 10px;
 }
 
 .skills li strong, .interests li strong {
-    color: #0066cc; /* Highlight skill and interest titles */
+    color: #0066cc;
+}
+
+/* Estilos para el modo oscuro */
+.dark-mode {
+    background-color: #1a1a1a;
+    color: #f0f0f0;
+}
+
+.dark-mode .container {
+    background-color: #333;
+}
+
+.dark-mode header h1,
+.dark-mode h2,
+.dark-mode h3 {
+    color: #f0f0f0;
+}
+
+.dark-mode ul {
+    color: #ffffff; /* Mejor contraste en modo oscuro */
+}
+
+button {
+    background-color: #0066cc;
+    color: #1a1a1a;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+    background-color: #4a4a4a;
+    color: #ffffff;
+}
+
+button#dark-mode-toggle {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    border-radius: 10px;
+}
+
+/* Modo oscuro para el botón */
+.dark-mode button {
+    background-color: #0066cc;
+    color: #1a1a1a;
+    border-radius: 10px;
+}
+
+.dark-mode button:hover {
+    background-color: #4a4a4a;
+    color: #ffffff;
 }

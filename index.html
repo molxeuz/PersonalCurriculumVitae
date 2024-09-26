@@ -7,6 +7,9 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
+        <!-- Botón de modo oscuro fuera del contenedor -->
+        <button id="dark-mode-toggle" aria-label="Toggle dark mode">Toggle Dark Mode</button>
+
         <div class="container">
             <header>
                 <h1>Mateo Molina González</h1>
@@ -73,7 +76,7 @@
                         <li><strong>Time Management:</strong> Adept at prioritizing tasks and managing time effectively to meet deadlines.</li>
                     </ul>
                 </div>
-            
+
                 <div class="interests">
                     <h3>Interests:</h3>
                     <ul>
@@ -88,7 +91,24 @@
                     </ul>
                 </div>
             </section>
-            
         </div>
+
+        <script>
+            const toggleButton = document.getElementById('dark-mode-toggle');
+            const currentTheme = localStorage.getItem('theme');
+
+            if (currentTheme === 'dark') {
+                document.body.classList.add('dark-mode');
+            }
+
+            toggleButton.addEventListener('click', () => {
+                document.body.classList.toggle('dark-mode');
+                let theme = 'light';
+                if (document.body.classList.contains('dark-mode')) {
+                    theme = 'dark';
+                }
+                localStorage.setItem('theme', theme);
+            });
+        </script>
     </body>
 </html>
