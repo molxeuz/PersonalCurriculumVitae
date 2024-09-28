@@ -6,6 +6,7 @@ Bienvenido a mi currículum vitae digital. Este proyecto es una representación 
 ![GitHub contributors](https://img.shields.io/github/contributors/molxeuz/PersonalCurriculumVitae)
 ![GitHub stars](https://img.shields.io/github/stars/molxeuz/PersonalCurriculumVitae)
 ![GitHub forks](https://img.shields.io/github/forks/molxeuz/PersonalCurriculumVitae)
+![GitHub visits](https://visitor-badge.glitch.me/badge?page_id=molxeuz.PersonalCurriculumVitae)
 
 ## 📊 Estadísticas
 
